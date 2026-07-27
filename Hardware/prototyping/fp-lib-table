@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UnexpectedMaker") (type "KiCad") (uri "/Users/ekiess/Documents/KiCad/esp32s3/kicad/UnexpectedMaker.pretty") (options "") (descr ""))
+)
