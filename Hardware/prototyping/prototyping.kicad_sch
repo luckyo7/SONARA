@@ -1101,6 +1101,12 @@
 		)
 	)
 	(junction
+		(at 123.19 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0aae6d4-059a-49b4-a6f8-e3b37f8023b9")
+	)
+	(junction
 		(at 107.95 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1117,6 +1123,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e53db5b8-c23a-487d-b0e7-a05b494a73c1")
+	)
+	(junction
+		(at 143.51 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82c0460-7b71-4909-b686-fb92f3aa2b88")
 	)
 	(no_connect
 		(at 58.42 76.2)
@@ -1292,6 +1304,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7429faab-b8f7-4ffe-a0d6-ebcd99950d3f")
+	)
+	(wire
+		(pts
 			(xy 96.52 91.44) (xy 96.52 63.5)
 		)
 		(stroke
@@ -1332,6 +1354,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 78.74) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53953de-f7b3-4daa-a4bb-bd2a6ae93fa9")
+	)
+	(wire
+		(pts
 			(xy 88.9 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -1349,6 +1381,16 @@
 			(type default)
 		)
 		(uuid "ce20ac21-446d-4554-9f9d-545c4b32ff3a")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ef39da-9ce8-48c6-af64-d2363cf7b59d")
 	)
 	(wire
 		(pts
@@ -1587,7 +1629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20 MO"
+		(property "Value" "20M"
 			(at 146.05 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,6 +1683,88 @@
 			(project "prototyping"
 				(path "/fac97198-1d41-4a25-9f52-4440fe3404ad"
 					(reference "FSR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4ab1a49-511c-4695-a705-40fd3c3ddf82")
+		(property "Reference" "R1"
+			(at 146.05 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 146.05 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9cf441be-73aa-4cf2-9fc3-ab5645ad0656")
+		)
+		(pin "1"
+			(uuid "bad40ce5-3816-4e45-bb1e-ee08cc6e82f4")
+		)
+		(instances
+			(project "prototyping"
+				(path "/fac97198-1d41-4a25-9f52-4440fe3404ad"
+					(reference "R1")
 					(unit 1)
 				)
 			)
